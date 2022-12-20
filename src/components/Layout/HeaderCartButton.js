@@ -1,5 +1,5 @@
-import CartIcon from '../Cart/CartIcon'
-import classes from './HeaderCartButton.module.css'
+import CartIcon from '../Cart/CartIcon';
+import classes from './HeaderCartButton.module.css';
 
 const HeaderCartButton = (props) => {
   return (
@@ -10,7 +10,7 @@ const HeaderCartButton = (props) => {
       <span>Your Cart</span>
       <span className={classes.badge}>3</span>
     </button>
-  )
-}
+  );
+};
 
-export default HeaderCartButton
+export default HeaderCartButton;
